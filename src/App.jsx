@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
-import { ExternalLink, User, MapPin, Calendar, AlertTriangle } from 'lucide-react'
+import { ExternalLink, User, MapPin, Calendar, AlertTriangle, MessageCircle } from 'lucide-react'
+import { getRedditDmUrl } from './config.js'
 
 function App() {
   const [cases, setCases] = useState([])
@@ -71,6 +72,17 @@ function App() {
         <div className="container">
           <h1>Pedofidesz Tracker</h1>
           <p>Fidesz pedofil botrányok kronológikus nyilvántartása</p>
+          <div className="header-actions">
+            <a 
+              href={getRedditDmUrl()}
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="submit-case-link"
+            >
+              <MessageCircle size={16} />
+              Új eset beküldése
+            </a>
+          </div>
         </div>
       </header>
 

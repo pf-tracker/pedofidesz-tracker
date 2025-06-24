@@ -52,8 +52,8 @@ if [ -f ".gitmodules" ] && grep -q "dist" .gitmodules; then
     # Navigate to dist folder
     cd dist
     
-    # Check if this is a git repository
-    if [ ! -d ".git" ]; then
+    # Check if this is a git repository (works for submodule pointer file too)
+    if ! git rev-parse --is-inside-work-tree > /dev/null 2>&1; then
         echo "❌ dist folder is not a git repository!"
         echo "Please run: git submodule update --init --recursive"
         exit 1
