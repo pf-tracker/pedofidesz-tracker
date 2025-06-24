@@ -1,0 +1,4 @@
+[submodule "dist"]
+	path = dist
+	url = https://github.com/YOUR_USERNAME/pedofidesz-tracker-pages.git
+	branch = main 

@@ -1,0 +1,30 @@
+{
+  "name": "pedofidesz-tracker",
+  "version": "1.0.0",
+  "description": "Fidesz pedofil botrányok nyilvántartása",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/build.js",
+    "preview": "vite preview",
+    "deploy": "./scripts/deploy.sh",
+    "setup-git": "./scripts/setup-git.sh",
+    "add-case": "node cli/add-case.js",
+    "list-cases": "node cli/list-cases.js",
+    "delete-case": "node cli/delete-case.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.294.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8"
+  },
+  "keywords": ["fidesz", "pedofil", "botrány", "tracker"],
+  "author": "",
+  "license": "MIT"
+} 
