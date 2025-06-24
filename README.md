@@ -9,12 +9,16 @@ Fidesz pedofil botrányok kronológikus nyilvántartása statikus weboldalon.
 - 🔗 **Források**: Minden esethez hírforrás link
 - 📱 **Reszponzív**: Mobilbarát modern design
 - 🛠️ **CLI Tool**: Egyszerű tartalomkezelés
+- 🌐 **GitHub Pages**: Automatikus deployment git submodule-lel
 
 ## Telepítés
 
 ```bash
 # Függőségek telepítése
 npm install
+
+# Git beállítása (GitHub Pages submodule-lel)
+npm run setup-git
 
 # Fejlesztői szerver indítása
 npm run dev
@@ -48,6 +52,25 @@ npm run list-cases
 npm run delete-case
 ```
 
+## 🌐 GitHub Pages Deployment
+
+A projekt git submodule-lel van konfigurálva a GitHub Pages automatikus deployment-hez.
+
+### Beállítás
+1. Hozz létre két repository-t:
+   - `pedofidesz-tracker` (fő projekt)
+   - `pedofidesz-tracker-pages` (GitHub Pages)
+2. Frissítsd a `.gitmodules` fájlt a saját felhasználóneveddel
+3. Futtasd: `npm run setup-git`
+
+### Deployment
+```bash
+# Automatikus build és push a GitHub Pages-re
+npm run deploy
+```
+
+Részletes útmutató: [GIT_SETUP.md](GIT_SETUP.md)
+
 ## Adatstruktúra
 
 A botrányok a `data/cases.json` fájlban tárolódnak:
@@ -70,17 +93,18 @@ A botrányok a `data/cases.json` fájlban tárolódnak:
 }
 ```
 
-## Hosztolás
+## Hosztolási opciók
 
-A `dist` mappát bármilyen statikus hosztoló szolgáltatáson elhelyezheted:
+### GitHub Pages (Ajánlott)
+- Automatikus deployment git submodule-lel
+- `npm run deploy` parancs
+- URL: `https://YOUR_USERNAME.github.io/pedofidesz-tracker-pages/`
 
-- GitHub Pages
+### Egyéb statikus hosztolók
 - Netlify
 - Vercel
 - Firebase Hosting
 - stb.
-
-**Fontos**: A `data/cases.json` fájlt is másold át a `dist` mappába!
 
 ## Technológia
 
@@ -88,6 +112,13 @@ A `dist` mappát bármilyen statikus hosztoló szolgáltatáson elhelyezheted:
 - **Styling**: CSS3 (Glassmorphism design)
 - **Icons**: Lucide React
 - **CLI**: Node.js
+- **Deployment**: Git Submodule + GitHub Pages
+
+## Hasznos linkek
+
+- [Gyors Kezdés](QUICKSTART.md)
+- [Git Setup](GIT_SETUP.md)
+- [GitHub Pages Setup](GITHUB_PAGES_SETUP.md)
 
 ## Licenc
 
