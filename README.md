@@ -30,6 +30,8 @@ npm run build
 ## CLI Használat
 
 ### Új botrány hozzáadása
+
+#### Interaktív mód
 ```bash
 npm run add-case
 ```
@@ -41,6 +43,25 @@ Interaktív módon kérdezi ki:
 - 📅 Dátum (YYYY-MM-DD)
 - 👤 Elkövető neve/pozíciója
 - 📍 Helyszín
+
+#### Paraméterezhető mód
+```bash
+npm run add-case-params -- "Cikk címe" "Összefoglaló" "URL" "YYYY-MM-DD" "Elkövető" "Helyszín"
+```
+
+**Példa:**
+```bash
+npm run add-case-params -- "Csokonai botrány" "Tanár zaklatta diákot" "https://example.com" "2025-01-18" "J. Dániel" "Debrecen"
+```
+
+**Vagy közvetlenül:**
+```bash
+node cli/add-case-params.js "Csokonai botrány" "Tanár zaklatta diákot" "https://example.com" "2025-01-18" "J. Dániel" "Debrecen"
+```
+
+**Hasznos opciók:**
+- `--help` vagy `-h`: Használati útmutató
+- `--interactive` vagy `-i`: Interaktív mód indítása
 
 ### Botrányok listázása
 ```bash
@@ -122,4 +143,4 @@ A botrányok a `data/cases.json` fájlban tárolódnak:
 
 ## Licenc
 
-MIT 
+MIT

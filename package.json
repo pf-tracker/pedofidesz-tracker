@@ -10,6 +10,7 @@
     "deploy": "./scripts/deploy.sh",
     "setup-git": "./scripts/setup-git.sh",
     "add-case": "node cli/add-case.js",
+    "add-case-params": "node cli/add-case-params.js",
     "list-cases": "node cli/list-cases.js",
     "delete-case": "node cli/delete-case.js"
   },

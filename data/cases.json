@@ -1,6 +1,16 @@
 {
   "cases": [
     {
+      "id": "1750800503127",
+      "title": "Javítóintézeti prostitúciós botrány: Állami vezetőket is érint a Szőlő utcai ügy",
+      "summary": "A Budapesti Javítóintézet igazgatóját, Juhász Péter Pált és élettársát 2025 májusában tartóztatták le, miután kiderült: állami gondozott lányokat kényszerítettek prostitúcióra, és a lányok keresetét elvették. Juhászt 2011-ben Dudás Zoltán terjesztette fel az igazgatói posztra, annak ellenére, hogy korábban is voltak ellene súlyos visszaélési gyanúk. Az ügy kirobbanása után Dudást a Külgazdasági és Külügyminisztérium azonnali hatállyal elbocsátotta, mivel ő volt a kinevezés felelőse. Az eset rávilágított a gyermekvédelmi rendszer súlyos hiányosságaira és a politikai összefonódásokra.",
+      "sourceUrl": "https://444.hu/2025/06/13/kirugtak-a-kulugybol-a-javitointezeti-igazgatot-felterjeszto-dudas-zoltant",
+      "date": "2025-05-27",
+      "perpetrator": "Juhász Péter Pál – a Budapesti Javítóintézet (Szőlő utca) igazgatója, Juhász élettársa – az intézmény helyettes rendészeti vezetője, Dudás Zoltán – az Emberi Erőforrások Minisztériuma egykori főosztályvezetője, a Fidesz 2024-es csepeli polgármesterjelöltje (a kinevezés felelőse)",
+      "location": "Budapesti Javítóintézet, Szőlő utca (Budapest, Magyarország)",
+      "addedAt": "2025-06-24T21:28:23.127Z"
+    },
+    {
       "id": "1750770974785",
       "title": "Harcosok Klubja botrány - elítélt pedofil részvétele",
       "summary": "Ivády Zsolt ivádi polgármester elítélt pedofilt vitt magával a Fidesz Harcosok Klubja rendezvényére, ahol Orbán Viktor beszédet mondott. Az S. Tamás György 2016-ban elítélt férfi jól látható volt a közönségben.",
@@ -9,6 +19,16 @@
       "perpetrator": "S. Tamás György (elítélt pedofil); Ivády Zsolt (polgármester)",
       "location": "BOK-csarnok, Budapest (Harcosok Klubja rendezvény)",
       "addedAt": "2025-06-24T13:16:14.785Z"
+    },
+    {
+      "id": "1750830246732",
+      "title": "Súlyos szexuális zaklatási botrány a Csokonai Vitéz Mihály Gimnáziumban",
+      "summary": "A debreceni Csokonai Vitéz Mihály Gimnáziumban egy tanár szexuálisan zaklatta a diákokat. A botrány miatt a tanár eltávolítását kérték, de a Fidesz vezetés megvédte őt.",
+      "sourceUrl": "https://debreciner.hu/cikk/2025/01/18/sulyos-szexualis-zaklatasi-botrany-a-csokonai-vitez-mihaly-gimnaziumban",
+      "date": "2025-01-18",
+      "perpetrator": "J. Dániel",
+      "location": "Debrecen",
+      "addedAt": "2025-06-25T05:44:06.732Z"
     },
     {
       "id": "1750771536707",
@@ -59,6 +79,16 @@
       "perpetrator": "F. tanár úr (29 éves pedagógus)",
       "location": "Bonyhád (Bonyhádi Általános Iskola)",
       "addedAt": "2025-06-24T13:23:54.151Z"
+    },
+    {
+      "id": "1750800631279",
+      "title": "Pócs János „kiskorúzásos” videóbotránya az Éden Büfében",
+      "summary": "Egy 2009-ben készült, később nyilvánosságra került videón Pócs János egy idénymunka-záró bulin, a családja tulajdonában álló Éden Büfében italt kínál egy fiatal lánynak. Amikor a lány jelzi, hogy kiskorú, Pócs a következő, sokak által felháborítónak tartott mondattal reagál: „Ilyen mellbőséggel kételkedek benne, hogy valaki kiskorú.” A videón Pócs a lány melleit dinnyékhez hasonlítgatja. A felvétel 2019-ben és 2024-ben is újra előkerült, de Pócs sosem adott érdemi magyarázatot az esetre. Az ügy a gyermekvédelem országos botrányai kapcsán ismét reflektorfénybe került.",
+      "sourceUrl": "https://444.hu/2024/02/23/ilyen-mellboseggel-ketelkedek-benne-hogy-valaki-kiskoru",
+      "date": "2024-02-23",
+      "perpetrator": "Pócs János, fideszes országgyűlési képviselő (Jászság), volt jászapáti polgármester",
+      "location": "Éden Büfé, Jászapáti (Magyarország)",
+      "addedAt": "2025-06-24T21:30:31.279Z"
     },
     {
       "id": "1750771100048",
@@ -131,5 +161,5 @@
       "addedAt": "2025-06-24T13:22:00.781Z"
     }
   ],
-  "lastUpdated": "2025-06-24T13:26:29.898Z"
+  "lastUpdated": "2025-06-25T05:44:06.732Z"
 }
