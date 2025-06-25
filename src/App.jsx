@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { ExternalLink, User, MapPin, Calendar, AlertTriangle, MessageCircle } from 'lucide-react'
 import { getRedditDmUrl } from './config.js'
 
@@ -73,6 +74,12 @@ function App() {
           <h1>Pedofidesz Tracker</h1>
           <p>Fidesz pedofil botrányok kronológikus nyilvántartása</p>
           <div className="header-actions">
+            <Link 
+              to="/manifesto"
+              className="manifesto-link"
+            >
+              Manifesztó
+            </Link>
             <a 
               href={getRedditDmUrl()}
               target="_blank" 

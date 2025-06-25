@@ -10,6 +10,8 @@ Fidesz pedofil botrányok kronológikus nyilvántartása statikus weboldalon.
 - 📱 **Reszponzív**: Mobilbarát modern design
 - 🛠️ **CLI Tool**: Egyszerű tartalomkezelés
 - 🌐 **GitHub Pages**: Automatikus deployment git submodule-lel
+- 📜 **Manifesztó**: A projekt céljának és jelentőségének bemutatása, rendszerszintű elemzéssel
+- 📨 **Reddit DM**: Új esetek beküldése Reddit üzenetben
 
 ## Telepítés
 
@@ -140,6 +142,7 @@ A botrányok a `data/cases.json` fájlban tárolódnak:
 - [Gyors Kezdés](QUICKSTART.md)
 - [Git Setup](GIT_SETUP.md)
 - [GitHub Pages Setup](GITHUB_PAGES_SETUP.md)
+- [Manifesztó](MANIFESTO.md) - A projekt céljának és jelentőségének bemutatása
 
 ## Licenc
 

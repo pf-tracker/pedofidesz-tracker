@@ -64,7 +64,30 @@ body {
 .header-actions {
   display: flex;
   justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
   margin-top: 1rem;
+}
+
+.manifesto-link {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.manifesto-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
 }
 
 .submit-case-link {
@@ -278,5 +301,108 @@ body {
   .submit-case-link {
     padding: 0.6rem 1.2rem;
     font-size: 0.9rem;
+  }
+}
+
+/* Manifesztó oldal stílusok */
+.header-nav {
+  margin-bottom: 1rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.back-link:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateX(-5px);
+}
+
+.manifesto-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.manifesto-section {
+  margin-bottom: 3rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+}
+
+.manifesto-section h2 {
+  color: #ff6b6b;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.manifesto-section p {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.manifesto-section ul {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.manifesto-section li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.manifesto-section strong {
+  color: #ff6b6b;
+  font-weight: 600;
+}
+
+.highlight-text {
+  background: rgba(255, 107, 107, 0.1);
+  border-left: 4px solid #ff6b6b;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.highlight-text strong {
+  color: #fff !important;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .manifesto-content {
+    padding: 1rem 0;
+  }
+  
+  .manifesto-section {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .manifesto-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .manifesto-section p,
+  .manifesto-section li {
+    font-size: 1rem;
   }
 } 
