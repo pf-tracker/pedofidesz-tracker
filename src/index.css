@@ -188,11 +188,26 @@ body {
 }
 
 .case-title {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: #fff;
-  margin-bottom: 0.5rem;
+  margin: 0;
   line-height: 1.3;
+}
+
+.case-title-link {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.case-title-link:hover {
+  color: #ff6b6b;
+  transform: translateY(-1px);
+}
+
+.case-title-link .case-title {
+  margin: 0;
 }
 
 .case-date {
