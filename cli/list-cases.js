@@ -30,6 +30,11 @@ function listCases() {
       console.log(`   📍 Helyszín: ${case_.location}`);
       console.log(`   📝 Összefoglaló: ${case_.summary}`);
       console.log(`   🔗 Forrás: ${case_.sourceUrl}`);
+      if (case_.hasDetails && case_.detailsSlug) {
+        console.log(`   📄 Részletek: IGEN (/eset/${case_.detailsSlug})`);
+      } else {
+        console.log(`   📄 Részletek: nincs`);
+      }
       console.log(`   🆔 ID: ${case_.id}`);
       console.log('─'.repeat(80));
     });
