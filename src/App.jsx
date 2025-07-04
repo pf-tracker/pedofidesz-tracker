@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { ExternalLink, User, MapPin, Calendar, AlertTriangle, MessageCircle } from 'lucide-react'
+import { ExternalLink, User, MapPin, Calendar, AlertTriangle, MessageCircle, FileText } from 'lucide-react'
 import { getRedditDmUrl } from './config.js'
 
 function App() {
@@ -140,15 +140,27 @@ function App() {
                 
                 <p className="case-summary">{case_.summary}</p>
                 
-                <a 
-                  href={case_.sourceUrl} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="case-link"
-                >
-                  <ExternalLink size={16} />
-                  Forrás megtekintése
-                </a>
+                <div className="case-actions">
+                  <a 
+                    href={case_.sourceUrl} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="case-link"
+                  >
+                    <ExternalLink size={16} />
+                    Forrás megtekintése
+                  </a>
+                  
+                  {case_.hasDetails && (
+                    <Link 
+                      to={`/eset/${case_.detailsSlug}`}
+                      className="details-link"
+                    >
+                      <FileText size={16} />
+                      Részletek
+                    </Link>
+                  )}
+                </div>
               </article>
             ))}
           </div>

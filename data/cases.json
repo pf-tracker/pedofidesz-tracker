@@ -8,7 +8,9 @@
       "date": "2025-05-27",
       "perpetrator": "Juhász Péter Pál – a Budapesti Javítóintézet (Szőlő utca) igazgatója, Juhász élettársa – az intézmény helyettes rendészeti vezetője, Dudás Zoltán – az Emberi Erőforrások Minisztériuma egykori főosztályvezetője, a Fidesz 2024-es csepeli polgármesterjelöltje (a kinevezés felelőse)",
       "location": "Budapesti Javítóintézet, Szőlő utca (Budapest, Magyarország)",
-      "addedAt": "2025-06-24T21:28:23.127Z"
+      "addedAt": "2025-06-24T21:28:23.127Z",
+      "hasDetails": true,
+      "detailsSlug": "javtintzeti-prostitcis-botrny-llami-vezetket-is-rint-a-szl-utcai-gy"
     },
     {
       "id": "1750770974785",
@@ -18,7 +20,9 @@
       "date": "2025-05-20",
       "perpetrator": "S. Tamás György (elítélt pedofil); Ivády Zsolt (polgármester)",
       "location": "BOK-csarnok, Budapest (Harcosok Klubja rendezvény)",
-      "addedAt": "2025-06-24T13:16:14.785Z"
+      "addedAt": "2025-06-24T13:16:14.785Z",
+      "hasDetails": true,
+      "detailsSlug": "harcosok-klubja-botrny-eltlt-pedofil-rszvtele"
     },
     {
       "id": "1750830246732",
@@ -28,7 +32,9 @@
       "date": "2025-01-18",
       "perpetrator": "J. Dániel",
       "location": "Debrecen",
-      "addedAt": "2025-06-25T05:44:06.732Z"
+      "addedAt": "2025-06-25T05:44:06.732Z",
+      "hasDetails": true,
+      "detailsSlug": "slyos-szexulis-zaklatsi-botrny-a-csokonai-vitz-mihly-gimnziumban"
     },
     {
       "id": "1750771536707",
@@ -38,17 +44,21 @@
       "date": "2024-12-05",
       "perpetrator": "Pajor András (zuglói plébános)",
       "location": "Budapest, XIV. kerület (Kassai téri templom)",
-      "addedAt": "2025-06-24T13:25:36.707Z"
+      "addedAt": "2025-06-24T13:25:36.707Z",
+      "hasDetails": true,
+      "detailsSlug": "pajor-andrs-plbnos-gyermekbntalmazs"
     },
     {
       "id": "1750771589898",
       "title": "Rónaszéki Gábor pedofil pap botránya",
-      "summary": "A Kalocsa-Kecskeméti Főegyházmegye papja ellen pedofil vádak merültek fel. Politikusokat fogadott “nem politikusi minőségükben” a Pázmány-rektorral közös tanyáján.",
+      "summary": "A Kalocsa-Kecskeméti Főegyházmegye papja ellen pedofil vádak merültek fel. Politikusokat fogadott \"nem politikusi minőségükben\" a Pázmány-rektorral közös tanyáján.",
       "sourceUrl": "https://www.valaszonline.hu/2024/09/24/r-gabor-kiskunfelegyhaza-papsag-katolikus-egyhaz-pedofilia-sztori/",
       "date": "2024-09-24",
       "perpetrator": "Rónaszéki Gábor (római katolikus pap)",
       "location": "Kalocsa-Kecskeméti Főegyházmegye",
-      "addedAt": "2025-06-24T13:26:29.898Z"
+      "addedAt": "2025-06-24T13:26:29.898Z",
+      "hasDetails": true,
+      "detailsSlug": "rnaszki-gbor-pedofil-pap-botrnya"
     },
     {
       "id": "1750771035741",
@@ -58,7 +68,9 @@
       "date": "2024-09-10",
       "perpetrator": "Hatházi Róbert (plébános)",
       "location": "Kecskemét; Homokkomárom (Nyolc Boldogság Közösség)",
-      "addedAt": "2025-06-24T13:17:15.741Z"
+      "addedAt": "2025-06-24T13:17:15.741Z",
+      "hasDetails": true,
+      "detailsSlug": "hathzi-rbert-kecskemti-plbnos-pedofil-botrnya"
     },
     {
       "id": "1750771382621",
@@ -68,7 +80,9 @@
       "date": "2024-06-18",
       "perpetrator": "Névtelen honvéd főtiszt",
       "location": "Szolnok (86. Helikopterdandár)",
-      "addedAt": "2025-06-24T13:23:02.621Z"
+      "addedAt": "2025-06-24T13:23:02.621Z",
+      "hasDetails": true,
+      "detailsSlug": "magyar-honvdsg-szexulis-zaklatsi-botrny"
     },
     {
       "id": "1750771434151",
@@ -78,7 +92,9 @@
       "date": "2024-06-04",
       "perpetrator": "F. tanár úr (29 éves pedagógus)",
       "location": "Bonyhád (Bonyhádi Általános Iskola)",
-      "addedAt": "2025-06-24T13:23:54.151Z"
+      "addedAt": "2025-06-24T13:23:54.151Z",
+      "hasDetails": true,
+      "detailsSlug": "bonyhdi-tanr-pedofil-botrny"
     },
     {
       "id": "1750834296532",
@@ -88,7 +104,9 @@
       "date": "2024-05-22",
       "perpetrator": "Putnoki Zsolt (volt polgármester, iskolaigazgató)",
       "location": "Újkenéz, Budapest XIII. ker.",
-      "addedAt": "2025-06-25T06:51:36.532Z"
+      "addedAt": "2025-06-25T06:51:36.532Z",
+      "hasDetails": true,
+      "detailsSlug": "iskolai-rmuralom-igazgat-pofozta-s-megalzta-a-dikokat"
     },
     {
       "id": "1750834289746",
@@ -98,7 +116,9 @@
       "date": "2024-04-10",
       "perpetrator": "Agócs Tibor (karatemester)",
       "location": "Szolnok, Jászberény",
-      "addedAt": "2025-06-25T06:51:29.746Z"
+      "addedAt": "2025-06-25T06:51:29.746Z",
+      "hasDetails": true,
+      "detailsSlug": "gyerekrgs-a-kampnyban-karatemester-s-a-fidesz-kapcsolata"
     },
     {
       "id": "1750834303477",
@@ -108,17 +128,21 @@
       "date": "2024-02-28",
       "perpetrator": "Gy. Péter (pedagógiai asszisztens)",
       "location": "Budapest XI. kerület",
-      "addedAt": "2025-06-25T06:51:43.477Z"
+      "addedAt": "2025-06-25T06:51:43.477Z",
+      "hasDetails": true,
+      "detailsSlug": "vodai-pedofilbotrny-asszisztens-zaklatott-kicsiket-jbudn"
     },
     {
       "id": "1750800631279",
-      "title": "Pócs János „kiskorúzásos” videóbotránya az Éden Büfében",
-      "summary": "Egy 2009-ben készült, később nyilvánosságra került videón Pócs János egy idénymunka-záró bulin, a családja tulajdonában álló Éden Büfében italt kínál egy fiatal lánynak. Amikor a lány jelzi, hogy kiskorú, Pócs a következő, sokak által felháborítónak tartott mondattal reagál: „Ilyen mellbőséggel kételkedek benne, hogy valaki kiskorú.” A videón Pócs a lány melleit dinnyékhez hasonlítgatja. A felvétel 2019-ben és 2024-ben is újra előkerült, de Pócs sosem adott érdemi magyarázatot az esetre. Az ügy a gyermekvédelem országos botrányai kapcsán ismét reflektorfénybe került.",
+      "title": "Pócs János \"kiskorúzásos\" videóbotránya az Éden Büfében",
+      "summary": "Egy 2009-ben készült, később nyilvánosságra került videón Pócs János egy idénymunka-záró bulin, a családja tulajdonában álló Éden Büfében italt kínál egy fiatal lánynak. Amikor a lány jelzi, hogy kiskorú, Pócs a következő, sokak által felháborítónak tartott mondattal reagál: \"Ilyen mellbőséggel kételkedek benne, hogy valaki kiskorú.\" A videón Pócs a lány melleit dinnyékhez hasonlítgatja. A felvétel 2019-ben és 2024-ben is újra előkerült, de Pócs sosem adott érdemi magyarázatot az esetre. Az ügy a gyermekvédelem országos botrányai kapcsán ismét reflektorfénybe került.",
       "sourceUrl": "https://444.hu/2024/02/23/ilyen-mellboseggel-ketelkedek-benne-hogy-valaki-kiskoru",
       "date": "2024-02-23",
       "perpetrator": "Pócs János, fideszes országgyűlési képviselő (Jászság), volt jászapáti polgármester",
       "location": "Éden Büfé, Jászapáti (Magyarország)",
-      "addedAt": "2025-06-24T21:30:31.279Z"
+      "addedAt": "2025-06-24T21:30:31.279Z",
+      "hasDetails": true,
+      "detailsSlug": "pcs-jnos-kiskorzsos-videbotrnya-az-den-bfben"
     },
     {
       "id": "1750834283699",
@@ -128,7 +152,9 @@
       "date": "2024-02-15",
       "perpetrator": "R. Gábor (volt katolikus lelkipásztor)",
       "location": "Kiskunfélegyháza",
-      "addedAt": "2025-06-25T06:51:23.699Z"
+      "addedAt": "2025-06-25T06:51:23.699Z",
+      "hasDetails": true,
+      "detailsSlug": "pap-a-gyntatszkben-ajndkokkal-csalt-el-kisfikat"
     },
     {
       "id": "1750771100048",
@@ -138,7 +164,9 @@
       "date": "2024-02-02",
       "perpetrator": "Kónya Endre (igazgatóhelyettes); Novák Katalin (köztársasági elnök); Varga Judit (igazságügyi miniszter)",
       "location": "Bicske (Kossuth Zsuzsa Gyermekotthon)",
-      "addedAt": "2025-06-24T13:18:20.048Z"
+      "addedAt": "2025-06-24T13:18:20.048Z",
+      "hasDetails": true,
+      "detailsSlug": "novk-katalin-kegyelmi-botrnya"
     },
     {
       "id": "1750940666453",
@@ -148,7 +176,9 @@
       "date": "2023-09-15",
       "perpetrator": "Nagy János (N.J.) - a Nemzeti Földügyi Központ volt elnöke, Orbán Viktor korábbi gimnáziumi osztálytársa",
       "location": "Budapest",
-      "addedAt": "2025-06-26T12:24:26.453Z"
+      "addedAt": "2025-06-26T12:24:26.453Z",
+      "hasDetails": true,
+      "detailsSlug": "nagy-jnos-gyermekpornogrfia-gye-a-nemzeti-fldgyi-kzpont-egykori-vezetje-ellen-emelt-vdak"
     },
     {
       "id": "1750771140871",
@@ -158,7 +188,9 @@
       "date": "2022-03-10",
       "perpetrator": "Tímár László Bálint (VII. kerületi képviselő, tanár)",
       "location": "VII. kerület, Budapest; Üllő",
-      "addedAt": "2025-06-24T13:19:00.871Z"
+      "addedAt": "2025-06-24T13:19:00.871Z",
+      "hasDetails": true,
+      "detailsSlug": "tmr-lszl-fideszes-kpvisel-pedofil-botrnya"
     },
     {
       "id": "1750771493487",
@@ -168,7 +200,9 @@
       "date": "2022-03-01",
       "perpetrator": "Pődör Zoltán (Szombathelyi Kézilabda Klub ügyvezető)",
       "location": "Szombathely",
-      "addedAt": "2025-06-24T13:24:53.487Z"
+      "addedAt": "2025-06-24T13:24:53.487Z",
+      "hasDetails": true,
+      "detailsSlug": "pdr-zoltn-gyermekbntalmazs"
     },
     {
       "id": "1750834263945",
@@ -178,7 +212,9 @@
       "date": "2020-12-15",
       "perpetrator": "Fohsz Tivadar (alpolgármester)",
       "location": "Budapest XVII. kerület",
-      "addedAt": "2025-06-25T06:51:03.945Z"
+      "addedAt": "2025-06-25T06:51:03.945Z",
+      "hasDetails": true,
+      "detailsSlug": "alpolgrmester-rejtett-kamerja-gyermekpornogrfia-a-csaldban"
     },
     {
       "id": "1750771225529",
@@ -188,7 +224,9 @@
       "date": "2020-07-11",
       "perpetrator": "Sz. Balázs (Simon Róbert Balázs fideszes képviselő titkára)",
       "location": "Aranypart strand, Győr",
-      "addedAt": "2025-06-24T13:20:25.529Z"
+      "addedAt": "2025-06-24T13:20:25.529Z",
+      "hasDetails": true,
+      "detailsSlug": "sz-balzs-gyri-fideszes-titkr-pedofil-botrnya"
     },
     {
       "id": "1750771265490",
@@ -198,7 +236,9 @@
       "date": "2020-02-11",
       "perpetrator": "Kaleta Gábor (perui nagykövet)",
       "location": "Peru (nagykövetség)",
-      "addedAt": "2025-06-24T13:21:05.490Z"
+      "addedAt": "2025-06-24T13:21:05.490Z",
+      "hasDetails": true,
+      "detailsSlug": "kaleta-gbor-nagykvet-pedofil-botrnya"
     },
     {
       "id": "1750771320781",
@@ -208,17 +248,9 @@
       "date": "2018-11-21",
       "perpetrator": "Vásárhelyi János (gyermekotthon igazgató)",
       "location": "Bicske (Kossuth Zsuzsa Gyermekotthon)",
-      "addedAt": "2025-06-24T13:22:00.781Z"
-    },
-    {
-      "id": "1750834081604",
-      "title": "Kollégiumi tanár titkos viszonya 12 éves diáklánnyal",
-      "summary": "Egy nagykőrösi fideszes képviselőt és kollégiumi nevelőtanárt azzal gyanúsítottak, hogy szexuális kapcsolatot létesített 12-13 éves tanítványával.",
-      "sourceUrl": "https://nepszava.hu/1151177_bunos-viszony-feljelentettek-egy-fideszes-kepviselot",
-      "date": "2018-01-27",
-      "perpetrator": "Kiss Attila Csaba (önkormányzati képviselő, nevelőtanár)",
-      "location": "Nagykőrös",
-      "addedAt": "2025-06-25T06:48:01.604Z"
+      "addedAt": "2025-06-24T13:22:00.781Z",
+      "hasDetails": true,
+      "detailsSlug": "vsrhelyi-jnos-bicskei-gyermekotthon-igazgat-pedofil-botrnya"
     },
     {
       "id": "1750834274645",
@@ -228,7 +260,9 @@
       "date": "2014-03-12",
       "perpetrator": "V. Gábor (cserkészvezető, ifjúsági iroda vezető)",
       "location": "Veszprém",
-      "addedAt": "2025-06-25T06:51:14.645Z"
+      "addedAt": "2025-06-25T06:51:14.645Z",
+      "hasDetails": true,
+      "detailsSlug": "cserkszvezet-perverzija-fik-molesztlsa-a-cserkszcsapatban"
     },
     {
       "id": "1750834313237",
@@ -238,8 +272,10 @@
       "date": "2009-06-15",
       "perpetrator": "Ismeretlen Fidesz-képviselő (Kaposvár)",
       "location": "Kaposvár",
-      "addedAt": "2025-06-25T06:51:53.237Z"
+      "addedAt": "2025-06-25T06:51:53.237Z",
+      "hasDetails": true,
+      "detailsSlug": "fidelitas-aut-kiskor-lnyt-molesztlt-a-fideszes-kpvisel"
     }
   ],
-  "lastUpdated": "2025-06-26T12:24:26.453Z"
+  "lastUpdated": "2025-07-04T18:09:40.135Z"
 }

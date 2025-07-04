@@ -13,9 +13,11 @@ function addCaseWithParams() {
   if (args.length === 0 || args.includes('--help') || args.includes('-h')) {
     console.log('🔄 Fidesz pedofil botrány hozzáadása paraméterekkel\n');
     console.log('Használat:');
-    console.log('  node cli/add-case-params.js "Cikk címe" "Összefoglaló" "URL" "YYYY-MM-DD" "Elkövető" "Helyszín"\n');
+    console.log('  node cli/add-case-params.js "Cikk címe" "Összefoglaló" "URL" "YYYY-MM-DD" "Elkövető" "Helyszín" [--has-details] [--details-slug "slug"]\n');
     console.log('Példa:');
     console.log('  node cli/add-case-params.js "Csokonai botrány" "Tanár zaklatta diákot" "https://example.com" "2025-06-18" "J. Dániel" "Debrecen"\n');
+    console.log('Példa részletes esettel:');
+    console.log('  node cli/add-case-params.js "Csokonai botrány" "Tanár zaklatta diákot" "https://example.com" "2025-06-18" "J. Dániel" "Debrecen" --has-details --details-slug "csokonai-botrany"\n');
     console.log('\nVagy interaktív mód:');
     console.log('  node cli/add-case-params.js --interactive\n');
     return;
@@ -37,6 +39,23 @@ function addCaseWithParams() {
   }
 
   const [title, summary, sourceUrl, date, perpetrator, location] = args;
+
+  // Opcionális paraméterek
+  const hasDetails = args.includes('--has-details');
+  const detailsSlugIndex = args.indexOf('--details-slug');
+  let detailsSlug = null;
+  
+  if (detailsSlugIndex !== -1 && args[detailsSlugIndex + 1]) {
+    detailsSlug = args[detailsSlugIndex + 1];
+  } else if (hasDetails) {
+    // Automatikus slug generálás a cím alapján
+    detailsSlug = title
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+      .trim();
+  }
 
   // Dátum validálása
   const dateRegex = /^\d{4}-\d{2}-\d{2}$/;
@@ -67,7 +86,9 @@ function addCaseWithParams() {
       date: date,
       perpetrator: perpetrator.trim() || 'Ismeretlen',
       location: location.trim() || 'Ismeretlen',
-      addedAt: new Date().toISOString()
+      addedAt: new Date().toISOString(),
+      hasDetails: hasDetails,
+      ...(detailsSlug && { detailsSlug: detailsSlug })
     };
 
     data.cases.push(newCase);
@@ -86,6 +107,48 @@ function addCaseWithParams() {
     console.log(`   Dátum: ${newCase.date}`);
     console.log(`   Elkövető: ${newCase.perpetrator}`);
     console.log(`   Helyszín: ${newCase.location}`);
+    
+    if (hasDetails && detailsSlug) {
+      console.log(`   Részletes oldal: /eset/${detailsSlug}`);
+      
+      // Markdown fájl létrehozása
+      const detailsDir = path.join(__dirname, '../data/details');
+      if (!fs.existsSync(detailsDir)) {
+        fs.mkdirSync(detailsDir, { recursive: true });
+      }
+      
+      const markdownPath = path.join(detailsDir, `${detailsSlug}.md`);
+      const markdownTemplate = `# ${newCase.title}
+
+## A botrány háttere
+
+${newCase.summary}
+
+## Részletes leírás
+
+Itt írhatod le részletesen a botrány történetét...
+
+## A Fidesz reakciója
+
+Hogyan reagált a Fidesz erre a botrányra?
+
+## Következmények
+
+Milyen következményekkel járt a botrány?
+
+---
+
+## Források
+
+1. [${newCase.title}](${newCase.sourceUrl}) - ${new URL(newCase.sourceUrl).hostname}
+
+---
+
+*Ez a részletes leírás a nyilvánosan elérhető információk alapján készült.*`;
+      
+      fs.writeFileSync(markdownPath, markdownTemplate);
+      console.log(`   📄 Markdown fájl létrehozva: data/details/${detailsSlug}.md`);
+    }
 
   } catch (error) {
     console.error('❌ Hiba történt:', error.message);
