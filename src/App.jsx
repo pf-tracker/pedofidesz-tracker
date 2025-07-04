@@ -119,7 +119,13 @@ function App() {
             {cases.map((case_) => (
               <article key={case_.id} className="case-card">
                 <div className="case-header">
-                  <h2 className="case-title">{case_.title}</h2>
+                  {case_.hasDetails ? (
+                    <Link to={`/eset/${case_.detailsSlug}`} className="case-title-link">
+                      <h2 className="case-title">{case_.title}</h2>
+                    </Link>
+                  ) : (
+                    <h2 className="case-title">{case_.title}</h2>
+                  )}
                   <div className="case-date">{formatDate(case_.date)}</div>
                 </div>
                 
@@ -141,20 +147,10 @@ function App() {
                 <p className="case-summary">{case_.summary}</p>
                 
                 <div className="case-actions">
-                  <a 
-                    href={case_.sourceUrl} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="case-link"
-                  >
-                    <ExternalLink size={16} />
-                    Forrás megtekintése
-                  </a>
-                  
                   {case_.hasDetails && (
                     <Link 
                       to={`/eset/${case_.detailsSlug}`}
-                      className="details-link"
+                      className="case-link"
                     >
                       <FileText size={16} />
                       Részletek
