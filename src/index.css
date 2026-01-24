@@ -235,6 +235,15 @@ body {
   font-size: 0.9rem;
 }
 
+.reader-letter-badge {
+  background: rgba(255, 193, 7, 0.2);
+  border: 1px solid rgba(255, 193, 7, 0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: #ffc107;
+  font-weight: 500;
+}
+
 .case-summary {
   color: rgba(255, 255, 255, 0.9);
   line-height: 1.6;
@@ -757,6 +766,20 @@ body {
 
 .article-related-case {
   margin-bottom: 1rem;
+}
+
+.article-reader-letter-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 193, 7, 0.2);
+  border: 1px solid rgba(255, 193, 7, 0.5);
+  padding: 0.4rem 0.8rem;
+  border-radius: 15px;
+  color: #ffc107;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
 }
 
 .related-case-link {

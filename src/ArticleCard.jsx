@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Calendar, ExternalLink, Tag } from 'lucide-react'
+import { Calendar, ExternalLink, Tag, AlertTriangle } from 'lucide-react'
 
 function ArticleCard({ article, relatedCase }) {
   const formatDate = (dateString) => {
@@ -20,6 +20,11 @@ function ArticleCard({ article, relatedCase }) {
       'lmp': '#a8e6cf'
     }
     return colors[party?.toLowerCase()] || '#888'
+  }
+
+  const getShortCaseTitle = (title) => {
+    // Eltávolítjuk a "Frissült YYYY. Hónap DD.:" részt a cím elejéről
+    return title.replace(/^Frissült \d{4}\. [A-Za-záéíóöőúüűÁÉÍÓÖŐÚÜŰ]+ \d{1,2}\.:\s*/, '')
   }
 
   return (
@@ -43,10 +48,17 @@ function ArticleCard({ article, relatedCase }) {
         </div>
       )}
 
+      {article.isReaderLetter && (
+        <div className="article-reader-letter-badge">
+          <AlertTriangle size={14} />
+          <span>Olvasói levél - nincs külső forrás</span>
+        </div>
+      )}
+
       {relatedCase && (
         <div className="article-related-case">
           <Link to={`/botrany/${relatedCase.detailsSlug || relatedCase.id}`} className="related-case-link">
-            Kapcsolódó botrány: {relatedCase.title}
+            Kapcsolódó botrány: {getShortCaseTitle(relatedCase.title)}
           </Link>
         </div>
       )}

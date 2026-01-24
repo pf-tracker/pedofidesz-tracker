@@ -23,7 +23,13 @@ function HomeFeed() {
         throw new Error('Nem sikerült betölteni a cikkeket')
       }
       const articlesData = await articlesResponse.json()
-      setArticles(articlesData.articles || [])
+      // Dátum szerint rendezés (legfrissebb elől)
+      const sortedArticles = (articlesData.articles || []).sort((a, b) => {
+        const dateA = new Date(a.publishedAt || a.date || a.addedAt)
+        const dateB = new Date(b.publishedAt || b.date || b.addedAt)
+        return dateB - dateA // Visszafelé: legfrissebb elől
+      })
+      setArticles(sortedArticles)
 
       // Botrányok betöltése (kapcsolódásokhoz)
       const casesResponse = await fetch('/data/cases.json')

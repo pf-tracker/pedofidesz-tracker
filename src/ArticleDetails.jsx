@@ -135,6 +135,12 @@ function ArticleDetails() {
                 </span>
               </div>
             )}
+            {article.isReaderLetter && (
+              <div className="meta-item reader-letter-badge">
+                <AlertTriangle size={16} />
+                <span>Olvasói levél - nincs külső forrás</span>
+              </div>
+            )}
             {relatedCase && (
               <div className="meta-item">
                 <Link to={`/botrany/${relatedCase.detailsSlug || relatedCase.id}`} className="related-case-link">
