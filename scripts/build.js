@@ -8,6 +8,10 @@ const sourceDataPath = path.join(__dirname, '../data/cases.json');
 const targetDataPath = path.join(__dirname, '../dist/data/cases.json');
 const sourceDetailsPath = path.join(__dirname, '../data/details');
 const targetDetailsPath = path.join(__dirname, '../dist/data/details');
+const sourceArticlesPath = path.join(__dirname, '../data/articles.json');
+const targetArticlesPath = path.join(__dirname, '../dist/data/articles.json');
+const sourceArticlesDirPath = path.join(__dirname, '../data/articles');
+const targetArticlesDirPath = path.join(__dirname, '../dist/data/articles');
 
 try {
   // Ellenőrizzük, hogy létezik-e a source fájl
@@ -49,6 +53,35 @@ try {
     console.log('✅ data/details mappa sikeresen átmásolva a dist mappába');
   } else {
     console.log('ℹ️  A data/details mappa nem létezik, kihagyva');
+  }
+
+  // Másoljuk át az articles.json fájlt, ha létezik
+  if (fs.existsSync(sourceArticlesPath)) {
+    fs.copyFileSync(sourceArticlesPath, targetArticlesPath);
+    console.log('✅ data/articles.json sikeresen átmásolva a dist mappába');
+  } else {
+    console.log('ℹ️  A data/articles.json fájl nem létezik, kihagyva');
+  }
+
+  // Másoljuk át az articles mappát, ha létezik
+  if (fs.existsSync(sourceArticlesDirPath)) {
+    // Létrehozzuk a target articles mappát
+    if (!fs.existsSync(targetArticlesDirPath)) {
+      fs.mkdirSync(targetArticlesDirPath, { recursive: true });
+    }
+
+    // Másoljuk át az összes .md fájlt
+    const files = fs.readdirSync(sourceArticlesDirPath);
+    files.forEach(file => {
+      if (file.endsWith('.md')) {
+        const sourceFile = path.join(sourceArticlesDirPath, file);
+        const targetFile = path.join(targetArticlesDirPath, file);
+        fs.copyFileSync(sourceFile, targetFile);
+      }
+    });
+    console.log('✅ data/articles mappa sikeresen átmásolva a dist mappába');
+  } else {
+    console.log('ℹ️  A data/articles mappa nem létezik, kihagyva');
   }
 
 } catch (error) {

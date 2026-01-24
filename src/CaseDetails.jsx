@@ -1,12 +1,15 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, User, MapPin, Calendar, ExternalLink, AlertTriangle } from 'lucide-react'
+import { ArrowLeft, User, MapPin, Calendar, ExternalLink, AlertTriangle, FileText } from 'lucide-react'
 import ReactMarkdown from 'react-markdown'
+import Navigation from './Navigation.jsx'
+import ArticleCard from './ArticleCard.jsx'
 
 function CaseDetails() {
   const { slug } = useParams()
   const [caseData, setCaseData] = useState(null)
   const [markdownContent, setMarkdownContent] = useState('')
+  const [relatedArticles, setRelatedArticles] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
@@ -82,6 +85,14 @@ function CaseDetails() {
       // Forráslista automatikus formázása
       const formattedContent = formatSources(markdownText)
       setMarkdownContent(formattedContent)
+
+      // Kapcsolódó cikkek betöltése
+      const articlesResponse = await fetch('/data/articles.json')
+      if (articlesResponse.ok) {
+        const articlesData = await articlesResponse.json()
+        const related = articlesData.articles.filter(a => a.relatedCase === foundCase.id)
+        setRelatedArticles(related)
+      }
       
     } catch (err) {
       setError(err.message)
@@ -101,23 +112,29 @@ function CaseDetails() {
 
   if (loading) {
     return (
-      <div className="loading">
-        <div>Betöltés...</div>
+      <div>
+        <Navigation />
+        <div className="loading">
+          <div>Betöltés...</div>
+        </div>
       </div>
     )
   }
 
   if (error) {
     return (
-      <div className="container">
-        <div className="empty-state">
-          <AlertTriangle size={48} />
-          <h3>Hiba történt</h3>
-          <p>{error}</p>
-          <Link to="/" className="back-link">
-            <ArrowLeft size={20} />
-            Vissza a főoldalra
-          </Link>
+      <div>
+        <Navigation />
+        <div className="container">
+          <div className="empty-state">
+            <AlertTriangle size={48} />
+            <h3>Hiba történt</h3>
+            <p>{error}</p>
+            <Link to="/botranyok" className="back-link">
+              <ArrowLeft size={20} />
+              Vissza a botrányokhoz
+            </Link>
+          </div>
         </div>
       </div>
     )
@@ -125,15 +142,17 @@ function CaseDetails() {
 
   return (
     <div>
-      <header className="header">
-        <div className="container">
-          <div className="header-nav">
-            <Link to="/" className="back-link">
-              <ArrowLeft size={20} />
-              Vissza a listához
-            </Link>
-          </div>
+      <Navigation />
+
+      <main className="container">
+        <div className="case-details-header">
+          <Link to="/botranyok" className="back-link">
+            <ArrowLeft size={20} />
+            Vissza a botrányokhoz
+          </Link>
+          
           <h1>{caseData.title}</h1>
+          
           <div className="case-meta-header">
             <div className="meta-item">
               <User size={16} />
@@ -149,14 +168,30 @@ function CaseDetails() {
             </div>
           </div>
         </div>
-      </header>
 
-      <main className="container">
         <div className="case-details-content">
           <div className="markdown-content">
             <ReactMarkdown>{markdownContent}</ReactMarkdown>
           </div>
         </div>
+
+        {relatedArticles.length > 0 && (
+          <div className="related-articles-section">
+            <h2>
+              <FileText size={20} />
+              Kapcsolódó cikkek
+            </h2>
+            <div className="related-articles-list">
+              {relatedArticles.map((article) => (
+                <ArticleCard 
+                  key={article.id} 
+                  article={article}
+                  relatedCase={caseData}
+                />
+              ))}
+            </div>
+          </div>
+        )}
       </main>
 
       <footer className="footer">

@@ -11,6 +11,8 @@
     "setup-git": "./scripts/setup-git.sh",
     "add-case": "node cli/add-case.js",
     "add-case-params": "node cli/add-case-params.js",
+    "add-article": "node cli/add-article.js",
+    "add-article-params": "node cli/add-article-params.js",
     "add-details": "node cli/add-details.js",
     "delete-details": "node cli/delete-details.js",
     "list-cases": "node cli/list-cases.js",

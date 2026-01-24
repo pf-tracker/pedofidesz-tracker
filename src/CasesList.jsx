@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { ExternalLink, User, MapPin, Calendar, AlertTriangle, MessageCircle, FileText } from 'lucide-react'
-import { getRedditDmUrl } from './config.js'
+import { User, MapPin, Calendar, AlertTriangle, FileText } from 'lucide-react'
+import Navigation from './Navigation.jsx'
 
-function App() {
+function CasesList() {
   const [cases, setCases] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -49,19 +49,25 @@ function App() {
 
   if (loading) {
     return (
-      <div className="loading">
-        <div>Betöltés...</div>
+      <div>
+        <Navigation />
+        <div className="loading">
+          <div>Betöltés...</div>
+        </div>
       </div>
     )
   }
 
   if (error) {
     return (
-      <div className="container">
-        <div className="empty-state">
-          <AlertTriangle size={48} />
-          <h3>Hiba történt</h3>
-          <p>{error}</p>
+      <div>
+        <Navigation />
+        <div className="container">
+          <div className="empty-state">
+            <AlertTriangle size={48} />
+            <h3>Hiba történt</h3>
+            <p>{error}</p>
+          </div>
         </div>
       </div>
     )
@@ -69,29 +75,7 @@ function App() {
 
   return (
     <div>
-      <header className="header">
-        <div className="container">
-          <h1>Pedofidesz Tracker</h1>
-          <p>Fidesz pedofil botrányok kronológikus nyilvántartása</p>
-          <div className="header-actions">
-            <Link 
-              to="/manifesto"
-              className="manifesto-link"
-            >
-              Manifesztó
-            </Link>
-            <a 
-              href={getRedditDmUrl()}
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="submit-case-link"
-            >
-              <MessageCircle size={16} />
-              Új eset beküldése
-            </a>
-          </div>
-        </div>
-      </header>
+      <Navigation />
 
       <main className="container">
         <div className="stats">
@@ -112,7 +96,7 @@ function App() {
         {cases.length === 0 ? (
           <div className="empty-state">
             <h3>Még nincs botrány nyilvántartva</h3>
-            <p>Használd a CLI tool-t új események hozzáadásához</p>
+            <p>Az új botrányok hamarosan megjelennek itt.</p>
           </div>
         ) : (
           <div className="cases-grid">
@@ -120,7 +104,7 @@ function App() {
               <article key={case_.id} className="case-card">
                 <div className="case-header">
                   {case_.hasDetails ? (
-                    <Link to={`/eset/${case_.detailsSlug}`} className="case-title-link">
+                    <Link to={`/botrany/${case_.detailsSlug}`} className="case-title-link">
                       <h2 className="case-title">{case_.title}</h2>
                     </Link>
                   ) : (
@@ -149,7 +133,7 @@ function App() {
                 <div className="case-actions">
                   {case_.hasDetails && (
                     <Link 
-                      to={`/eset/${case_.detailsSlug}`}
+                      to={`/botrany/${case_.detailsSlug}`}
                       className="case-link"
                     >
                       <FileText size={16} />
@@ -177,4 +161,5 @@ function App() {
   )
 }
 
-export default App 
+export default CasesList
+
