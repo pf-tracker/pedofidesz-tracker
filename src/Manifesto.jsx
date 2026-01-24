@@ -1,21 +1,9 @@
-import { Link } from 'react-router-dom'
-import { ArrowLeft } from 'lucide-react'
+import Navigation from './Navigation.jsx'
 
 function Manifesto() {
   return (
     <div>
-      <header className="header">
-        <div className="container">
-          <div className="header-nav">
-            <Link to="/" className="back-link">
-              <ArrowLeft size={20} />
-              Vissza a főoldalra
-            </Link>
-          </div>
-          <h1>Manifesztó</h1>
-          <p>A Pedofidesz Tracker célja és jelentősége</p>
-        </div>
-      </header>
+      <Navigation />
 
       <main className="container">
         <div className="manifesto-content">

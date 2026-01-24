@@ -1,0 +1,17 @@
+{
+  "articles": [
+    {
+      "id": "article-1769252652408",
+      "title": "Az oldal új struktúrája: miért változtattunk?",
+      "summary": "A Pedofidesz Tracker mostantól kétoldalas struktúrával működik: a főoldal egy hirfolyam, ahol a legfrissebb hírek és frissítések jelennek meg, míg a Botrányok oldal az összes dokumentált esetet tartalmazza. A változtatás három fő okból történt: a folyó ügyekről fontosnak tartottuk a frissítések közzétételét, néhány eset szerteágazó jellege miatt, valamint a látogatók által beküldött új cikkek és esetek kezelésének lehetősége miatt.",
+      "sourceUrl": "https://pedofidesz-tracker.github.io",
+      "date": "2026-01-24",
+      "publishedAt": "2026-01-24T12:00:00.000Z",
+      "relatedCase": null,
+      "partyAffiliation": null,
+      "slug": "az-oldal-uj-strukturaja",
+      "addedAt": "2026-01-24T11:04:12.408Z"
+    }
+  ],
+  "lastUpdated": "2026-01-24T11:04:12.408Z"
+}
