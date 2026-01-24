@@ -1,12 +1,24 @@
 {
   "cases": [
     {
+      "id": "1761423795453",
+      "title": "Büntetett előéletű bűnözőből gyereknevelő Nagykanizsán – 7 fiú jelezte a molesztálást, mégis csak hónapok után rúgták ki",
+      "summary": "A nagykanizsai javítóintézetben egy többször elítélt, lopás és okirat-hamisítás miatt büntetett férfi dolgozhatott nevelőként büntetett előélete ellenére.",
+      "sourceUrl": "https://atlatszo.hu/kozugy/2025/10/22/hol-simogatnad-meg-a-bacsit-tobbszor-elitelt-bunozot-vettek-fel-nevelonek-a-nagykanizsai-javitointezetbe/",
+      "date": "2025-10-22",
+      "perpetrator": "Nevelőként dolgozó, többszörösen elítélt férfi",
+      "location": "Nagykanizsa",
+      "addedAt": "2025-10-25T20:23:15.453Z",
+      "hasDetails": true,
+      "detailsSlug": "buntetett-eloelet-bunozobol-gyereknevelo-nagykanizsan"
+    },
+    {
       "id": "1750800503127",
-      "title": "Javítóintézeti prostitúciós botrány: Állami vezetőket is érint a Szőlő utcai ügy",
+      "title": "Frissült 2025. Szeptember 23.: Javítóintézeti prostitúciós botrány: Állami vezetőket is érint a Szőlő utcai ügy",
       "summary": "A Budapesti Javítóintézet igazgatóját, Juhász Péter Pált és élettársát 2025 májusában tartóztatták le, miután kiderült: állami gondozott lányokat kényszerítettek prostitúcióra, és a lányok keresetét elvették. Juhászt 2011-ben Dudás Zoltán terjesztette fel az igazgatói posztra, annak ellenére, hogy korábban is voltak ellene súlyos visszaélési gyanúk. Az ügy kirobbanása után Dudást a Külgazdasági és Külügyminisztérium azonnali hatállyal elbocsátotta, mivel ő volt a kinevezés felelőse. Az eset rávilágított a gyermekvédelmi rendszer súlyos hiányosságaira és a politikai összefonódásokra.",
       "sourceUrl": "https://444.hu/2025/06/13/kirugtak-a-kulugybol-a-javitointezeti-igazgatot-felterjeszto-dudas-zoltant",
       "date": "2025-05-27",
-      "perpetrator": "Juhász Péter Pál – a Budapesti Javítóintézet (Szőlő utca) igazgatója, Juhász élettársa – az intézmény helyettes rendészeti vezetője, Dudás Zoltán – az Emberi Erőforrások Minisztériuma egykori főosztályvezetője, a Fidesz 2024-es csepeli polgármesterjelöltje (a kinevezés felelőse)",
+      "perpetrator": "Juhász Péter Pál – a Budapesti Javítóintézet (Szőlő utca) igazgatója, Juhász élettársa – az intézmény helyettes rendészeti vezetője, Dudás Zoltán – az Emberi Erőforrások Minisztériuma egykori főosztályvezetője, a Fidesz 2024-es csepeli polgármesterjelöltje (a kinevezés felelőse), \"Zsolti bácsi\"",
       "location": "Budapesti Javítóintézet, Szőlő utca (Budapest, Magyarország)",
       "addedAt": "2025-06-24T21:28:23.127Z",
       "hasDetails": true,
@@ -277,5 +289,5 @@
       "detailsSlug": "fidelitas-aut-kiskor-lnyt-molesztlt-a-fideszes-kpvisel"
     }
   ],
-  "lastUpdated": "2025-07-04T18:09:40.135Z"
+  "lastUpdated": "2025-10-25T20:23:15.453Z"
 }

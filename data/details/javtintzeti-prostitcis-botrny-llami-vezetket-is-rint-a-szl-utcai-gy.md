@@ -1,4 +1,16 @@
 
+Új információk a Szőlő utcai javítóintézeti prostitúciós botrányról (2025. szeptember 23.):
+
+A javítóintézet korábbi igazgatóját, akit emberkereskedelemmel és szexuális kizsákmányolással gyanúsítanak, J. Péter Pálnak hívják. Az elkövető 2011-től vezette az intézményt, és vezetése alatt többször kitüntették, utoljára 2024-ben közbiztonsági díjat kapott. 57 éves. Az igazgató mellett az élettársát is letartóztatták, aki az online szexhirdetésekkel és a pénzügyek kezelésével foglalkozott. A lányokat korábban gyermekotthonban nevelték, majd a javítóintézetben foglalkoztatták papíron, valójában prostitúcióra kényszerítették őket.
+
+A botrány kapcsán “Zsolti bácsi” néven emlegették a korábbi igazgatót, aki a hírek szerint „babámnak” vagy „drágámnak” szólította a lányokat, és ellátta őket új ruhákkal, bizonyos kivételezésben részesítette őket. Az üggyel kapcsolatban politikai és közéleti viták is kialakultak. Semjén Zsolt KDNP-s politikus is megszólalt az ügyben, amelyek kapcsán a “Zsolti bácsi” név közismertté vált a média és közbeszédben.
+
+A botrány ráirányította a figyelmet a gyermekvédelmi rendszer hiányosságaira, különösen a javítóintézeti környezetben, ahol a sérülékeny helyzetű fiatalokat könnyen kihasználhatják.
+
+Az eset súlyosságára és a közéleti visszhangra tekintettel további vizsgálatok és politikai reakciók várhatók a közeljövőben.
+
+Eredeti cikk:
+
 Ha a Szőlő utcai javítóintézet falai beszélni tudnának, most valószínűleg ők is csak zavartan néznének maguk elé – ahogy a magyar gyermekvédelem vezetői is, amikor május végén berobbant a botrány: **az igazgatót, Juhász Péter Pált és élettársát letartóztatták, miután kiderült, hogy állami gondozott lányokat kényszerítettek prostitúcióra**[1][2][3]. A történet egyszerre szürreális, tragikus és nagyon is magyar – benne minden, ami egy sötét közéleti thrillerhez kell: luxusszállodák, hamis identitás, kitalált művésznév, milliók készpénzben, és persze a nagybetűs Kapcsolatok.
 
 **A rendőrség május végén csapott le Juhászra és Aisah Zamirára (valójában H. Hédi), miután évekig hiába jelezték a gyermekvédelemmel foglalkozó dolgozók, hogy valami nagyon nincs rendben**[2][3]. A lányokat 50-70 ezer forintért vitték szállodákba, Szingapúrig is eljutottak, a rendőrség pedig 120 millió forintot talált készpénzben Juhásznál – mindezt egy olyan rendszerben, ahol a panaszokat rendre lesöpörték, vagy épp a bejelentőt távolították el, nem az elkövetőt[2].
