@@ -1,6 +1,32 @@
 {
   "articles": [
     {
+      "id": "article-1769258000000",
+      "title": "Olvasói levél: Körömi fideszes polgármester botránya - 11 éves kislánnyal szexuális kapcsolat",
+      "summary": "Egy olvasó levele szerint Borsod megye, Köröm település fideszes polgármestere másodállásban tanított sérült gyermekeket a szomszédos Girincs településen levő Dőry kastélyban. Szexuális kapcsolatot folytatott egy 11 éves kislánnyal. A botrány kirobbanása után 8 millió forintot fizetett a kislány szüleinek. A rendőrséghez eljutott, de eljárás nem indult. A polgármester Mezőkövesdre költözött, Tállai András mellé, a lány a mai napig vele van.",
+      "sourceUrl": null,
+      "date": "2026-01-24",
+      "publishedAt": "2026-01-24T14:00:00.000Z",
+      "relatedCase": "1769258000000",
+      "partyAffiliation": "fidesz",
+      "slug": "olvasoi-level-koromi-fideszes-polgarmester-botranya-11-eves-kislannyal-szexualis-kapcsolat",
+      "addedAt": "2026-01-24T14:00:00.000Z",
+      "isReaderLetter": true
+    },
+    {
+      "id": "article-1769257000000",
+      "title": "Olvasói levél: Oroján Sándor Fidelitas-botránya - kiskorú zaklatása Egerben",
+      "summary": "Egy olvasó levele szerint 2013-ban Oroján Sándor, a Fidelitas akkori egri vezetője, későbbi Fidesz-frakcióvezető megpróbálta megcsókolni egy 15 éves lányt egy zártkörű borfesztiválon. A lány Fidelitas-eseményeken dolgozott Egerben, és Oroján autóval hozta haza Budapestről, ahol egy promóvideóban szerepelt. A borfesztiválon, amikor a lány el akart jönni, Oroján magához húzta, hogy megcsókolja, de a lány nem engedte.",
+      "sourceUrl": null,
+      "date": "2026-01-23",
+      "publishedAt": "2026-01-23T12:00:00.000Z",
+      "relatedCase": "1769257000000",
+      "partyAffiliation": "fidesz",
+      "slug": "olvasoi-level-orojan-sandor-fidelitas-botranya-kiskoru-zaklatasa-egerben",
+      "addedAt": "2026-01-24T13:00:00.000Z",
+      "isReaderLetter": true
+    },
+    {
       "id": "article-1769252652408",
       "title": "Az oldal új struktúrája: miért változtattunk?",
       "summary": "A Pedofidesz Tracker mostantól kétoldalas struktúrával működik: a főoldal egy hirfolyam, ahol a legfrissebb hírek és frissítések jelennek meg, míg a Botrányok oldal az összes dokumentált esetet tartalmazza. A változtatás három fő okból történt: a folyó ügyekről fontosnak tartottuk a frissítések közzétételét, néhány eset szerteágazó jellege miatt, valamint a látogatók által beküldött új cikkek és esetek kezelésének lehetősége miatt.",
@@ -290,5 +316,5 @@
       "addedAt": "2026-01-24T11:38:10.011Z"
     }
   ],
-  "lastUpdated": "2026-01-24T11:55:24.863Z"
+  "lastUpdated": "2026-01-24T14:00:00.000Z"
 }
