@@ -6,7 +6,7 @@ A kormány tagadása és az álhír vádak ellenére az ügyészség komolyan ve
 
 Ez a tény rávilágít arra, hogy az ügy valóságos, és az ügyészség komolyan veszi a nyomozást. A kormány tagadása és az álhír vádak ellenére az ügyészség folytatta a nyomozást, és letartóztatott két gyanúsítottat. Ez mutatja, hogy a rendszer nem csak elhallgatja az áldozatok hangját, hanem aktívan védi az elkövetőket.
 
-A botrány része a nagyobb gyermekvédelmi válságnak (Zirzen Janka, Szőlő utca), de Ózd-specifikusan pedofil gyanúra fókuszál magas rangú érintettel. Az ügyészség vizsgálja a titkosításokat, és a kormány szerint politikai támadás Juhász ellen.
+Az **ózdi környéki gyermekotthon**-nyomozás **nem** a budapesti **Szőlő utcai javítóintézet** ügye: külön eljárás, más helyszín; a közbeszédben gyakran egy kalap alá kerülnek, de **nem összekeverendők**. **Ózd környékére** (Zirzen Janka stb.) jellemző a gyermekotthonos szál; a Szőlő utca **külön** büntetőügy. Az ügyészség vizsgálja a titkosításokat; a kormányközeli sajtó a nyilvánosságra hozatalt bíró **Juhász Péter** (podcaster, nem a szőlő utcai Juhász Péter Pál) elleni politikai támadásként állította be.
 
 Ez a botrány egyértelműen mutatja, hogy a Fidesz rendszere mennyire védi az elkövetőket, és mennyire elhallgatja az áldozatok hangját. A kormány válasza a tagadás és az álhír vádak voltak, miközben az ügyészség komolyan veszi a nyomozást. Ez a rendszer működése – ahol a hatalom védi a saját embereit, és az áldozatok mindig csak statiszták maradnak.
 

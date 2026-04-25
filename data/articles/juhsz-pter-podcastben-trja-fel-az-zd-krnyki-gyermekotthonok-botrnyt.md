@@ -1,10 +1,10 @@
 # Juhász Péter podcastben tárja fel az Ózd környéki gyermekotthonok botrányát
 
-2025. szeptember 19-én Juhász Péter ex-gyermekvédelmi vezető podcastben tárta fel az Ózd környéki gyermekotthonok botrányát. A gyerekek szerint egy "Zsolti bácsi" nevű, fekete autóval járó, magas rangú politikus rendszeresen zaklatta őket. Kuslits Gábor szakember megerősítette a titoktartást, és kiderült, hogy az ügy évek óta fennáll, de senki sem tett semmit.
+2025. szeptember 19-én Juhász Péter ellenzéki aktivista és podcaster — nem a szőlő utcai javítóintézet volt igazgatója, Juhász Péter Pál — podcastban tárta fel az Ózd környéki gyermekotthonok botrányát. A gyerekek szerint egy "Zsolti bácsi" nevű, fekete autóval járó, magas rangú politikus rendszeresen zaklatta őket. Kuslits Gábor szakember megerősítette a titoktartást, és kiderült, hogy az ügy évek óta fennáll, de senki sem tett semmit.
 
 A botrány története körülbelül 2015-ben kezdődött, amikor egy névtelen hitoktató (Látó János?) hallotta fiúktól, hogy egy "nagyon magas rangú politikus" ("Zsolti bácsi", TV hang alapján Semjén Zsolt gyanúja) fekete autóval érkezik esti órákban a gyermekotthonokhoz. A gyerekek szerint 10-12 éves korukban zaklatták őket. A rendőr titoktartást írt alá, és az ügy évekig eltussolt maradt.
 
-2025. szeptember 19-én Juhász Péter podcastben tárta fel az ügyet: Ózd környéki gyermekotthonban rendszeres zaklatás történt. Kuslits Gábor szakember megerősítette a titoktartást, és kiderült, hogy az ügy évek óta fennáll, de senki sem tett semmit. Ez a tény rávilágít arra, hogy a rendszer nem csak elhallgatja az áldozatok hangját, hanem aktívan védi az elkövetőket.
+2025. szeptember 19-én Juhász Péter (podcaster; nem Juhász Péter Pál) podcastban tárta fel az ügyet: Ózd környéki gyermekotthonban rendszeres zaklatás történt. Ez a szál **önálló** a budapesti Szőlő utcai javítóintézeti büntetőügytől (más helyszín, más intézménytípus, más nyomozás); a közbeszédben gyakran összekeverik őket. Kuslits Gábor szakember megerősítette a titoktartást, és kiderült, hogy az ügy évek óta fennáll, de senki sem tett semmit. Ez a tény rávilágít arra, hogy a rendszer nem csak elhallgatja az áldozatok hangját, hanem aktívan védi az elkövetőket.
 
 A botrány kirobbanása után azonnali volt a kormányzati reakció. A kormánypárti politikusok próbálták eltéríteni a figyelmet a botrányról, és a tagadás és az álhír vádak voltak a válasz. Ez a narratíva mutatja, hogy a kormány nem a problémák megoldására, hanem a felelősség elkerülésére törekszik.
 

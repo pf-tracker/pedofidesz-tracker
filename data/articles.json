@@ -1,6 +1,54 @@
 {
   "articles": [
     {
+      "id": "article-1774550400000",
+      "title": "Koronatanú a Kontrollnak: Bangó Sándor Juhász Péter Pálról és „Zsolti bácsiról” is vallott",
+      "summary": "Bangó Sándor, a Juhász Péter Pál elleni eljárás koronatanúja interjút adott a Kontrollnak (Blikk, szmo.hu is közölte). Állítása szerint Juhász Péter Pál szexuálisan visszaélt vele a budapesti javítóintézetben; egy alkalommal sötét szobában „Zsolti bácsi” is jelen volt – politikusnak mondta. (Ugyanez a becenév az ózdi gyermekotthon-ügyben is felbukkan, de az külön eljárás; ez a vallomás a szőlőutcai ügyhöz tartozik.) A Kontroll szerint a szerkesztőség megnevezte előttük a személyt, de nem közlik a nevet. A vallomás új kontextust ad a januári ügyészségi állításhoz („nincs bizonyíték Zsolti létezésére”).",
+      "sourceUrl": "https://kontroll.hu/cikk/belfold/2026/04/24/megdoebbento-vallomast-tett-a-kontrollnak-zsolti-bacsi-aldozata-1",
+      "date": "2026-04-24",
+      "publishedAt": "2026-04-24T18:00:00.000Z",
+      "relatedCase": "1750800503127",
+      "partyAffiliation": "fidesz",
+      "slug": "szolo-utca-bango-sandor-vallomas-zsolti-bacsi-kontroll",
+      "addedAt": "2026-04-24T18:00:00.000Z"
+    },
+    {
+      "id": "article-1768308000000",
+      "title": "Szőlő utca: tizenöt kiskorú sértett, új gyanúsítások – a „Zsolti bácsi”-re nincs bizonyíték",
+      "summary": "A legfőbb ügyész helyettese írásbeli válaszából kiderült: eddig 15 kiskorú sértettet azonosítottak Juhász Péter Pál ügyében; új gyanúsítások: szexuális visszaélés hatalmi viszonnyal, gyermekprostitúció, szexuális erőszak. A nyomozók szerint „Zsolti bácsi” létezésére és prostitúciós ügyféllistákra nincs értékelhető bizonyíték, ezeket továbbra is vizsgálják.",
+      "sourceUrl": "https://24.hu/belfold/2026/01/13/szolo-utca-kiskoru-sertettek-zsolti-bacsi-lugyfellista/",
+      "date": "2026-01-13",
+      "publishedAt": "2026-01-13T11:11:00.000Z",
+      "relatedCase": "1750800503127",
+      "partyAffiliation": "fidesz",
+      "slug": "szolo-utca-15-sertett-zsolti-bacsi-ugyfellista-ugyeszseg",
+      "addedAt": "2026-01-13T12:00:00.000Z"
+    },
+    {
+      "id": "article-1769261000000",
+      "title": "Ugyanabban az óvodában: bántalmazás és egy korábban felfüggesztett lelkész",
+      "summary": "A kecskeméti Szent Imre Katolikus Óvodában január végén az óvodavezető bántalmazott egy négyéves kislányt. Az intézmény honlapja szerint Hatházi Róbert volt az óvoda lelkésze – őt 2024-ben pedofília gyanújával felfüggesztették, közel állt a Fideszhez, kitüntették, százmilliókat kapott. A két eset különbözik, de ugyanaz az intézmény.",
+      "sourceUrl": "https://www.atv.hu/belfold/20260211/ovodai-gyermekbantalmazas-kecskemet/",
+      "date": "2026-02-16",
+      "publishedAt": "2026-02-16T12:00:00.000Z",
+      "relatedCase": "1750771035741",
+      "partyAffiliation": "fidesz",
+      "slug": "szent-imre-ovoda-hathazi-kapcsolat-kecskemet",
+      "addedAt": "2026-02-16T12:00:00.000Z"
+    },
+    {
+      "id": "article-1769260800000",
+      "title": "Új szál a Szőlő utcai nyomozásban: kamaszként férjhez mentek Juhász Péter Pál „pártfogoltjai\"",
+      "summary": "Az ügyészségi iratok szerint olyan kiskorú lányok mentek férjhez, akik kapcsolatban álltak Juhász Péter Pállal – így nagykorúvá váltak 18 előtt. A gyámhivatal mindegyik esetben jóváhagyta a frigyt, ezzel a lányok eltűntek a gyermekvédelmi rendszerből. A Bettinaként említett eset is a Zirzen Janka Gyermekotthonban kötött ki, amelyet Kuslits kapcsolt össze Juhász Péter Pál érintettségével.",
+      "sourceUrl": "https://hvg.hu/360/20260219_juhasz-peter-pal-szolo-utcai-javitointezet-prostitucio-kiskoru-hazassagkotese",
+      "date": "2026-02-19",
+      "publishedAt": "2026-02-19T12:00:00.000Z",
+      "relatedCase": "1750800503127",
+      "partyAffiliation": "fidesz",
+      "slug": "uj-szal-szolo-utcai-nyomozasban-kamaszkent-ferjhez-mentek",
+      "addedAt": "2026-02-19T12:00:00.000Z"
+    },
+    {
       "id": "article-1769258000000",
       "title": "Olvasói levél: Körömi fideszes polgármester botránya - 11 éves kislánnyal szexuális kapcsolat",
       "summary": "Egy olvasó levele szerint Borsod megye, Köröm település fideszes polgármestere másodállásban tanított sérült gyermekeket a szomszédos Girincs településen levő Dőry kastélyban. Szexuális kapcsolatot folytatott egy 11 éves kislánnyal. A botrány kirobbanása után 8 millió forintot fizetett a kislány szüleinek. A rendőrséghez eljutott, de eljárás nem indult. A polgármester Mezőkövesdre költözött, Tállai András mellé, a lány a mai napig vele van.",
@@ -138,7 +186,7 @@
     {
       "id": "article-1769255336202",
       "title": "Legfőbb ügyész megerősíti: nyomozás zajlik Ózd környékén",
-      "summary": "2025. október 16-17-én Nagy Gábor Bálint legfőbb ügyész megerősítette a nyomozást: szexuális bűnök miatt nyomozás zajlik Ózd környékén (Zirzen Janka részeként). Két gyanúsítottat letartóztattak, akik nem közszereplők vagy rendőrök voltak. Ez mutatja, hogy az ügy valóságos, és az ügyészség komolyan veszi a nyomozást.",
+      "summary": "2025. október 16-17-én Nagy Gábor Bálint legfőbb ügyész megerősítette a nyomozást: szexuális bűnök miatt nyomozás zajlik Ózd környékén (Zirzen Janka részeként). Két gyanúsítottat letartóztattak, akik nem közszereplők vagy rendőrök voltak. Önálló ügy a budapesti Szőlő utcai javítóintézeti eljárástól; a kettőt a közbeszédben gyakran összekeverik.",
       "sourceUrl": "https://24.hu/belfold/2025/10/17/legfobb-ugyesz-ozdi-gyermekotthonokban-is-nyomozas-zajlik-szexualis-buncselekmenyek-gyanuja-miatt/",
       "date": "2025-10-17",
       "publishedAt": "2025-10-17T12:00:00.000Z",
@@ -186,7 +234,7 @@
     {
       "id": "article-1769255333839",
       "title": "Semjén Zsolt tagad, kormány álhír vád: a botrány politikai válasza",
-      "summary": "2025. szeptember 23-án Semjén Zsolt a parlamentben tagadta az érintettségét: \"soha nem jártam ilyen helyen\". Kocsis Máté \"soha nem látott megtorlást\" ígért, és a kormány azt állította, hogy \"nem létezik ózdi gyerekotthon\" (16 éve bezárt). Ez a narratíva mutatja, hogy a kormány nem a problémák megoldására, hanem a felelősség elkerülésére törekszik.",
+      "summary": "2025. szeptember 23-án Semjén Zsolt a parlamentben tagadta az érintettségét: „soha nem jártam ilyen helyen”. A vita az ózdi környéki gyermekotthon-állítások körül zajlott, de a média és a kormányoldal gyakran egy montázsban hozta a budapesti Szőlő utcai javítóintézeti ügyet is — a kettő külön büntetőügy és más helyszín. Kocsis Máté „soha nem látott megtorlást” ígért; a kormány kommunikációja tagadásra és álhír-címkézésre épült.",
       "sourceUrl": "https://24.hu/belfold/2025/09/23/szolo-utca-semjen-zsolt-vad-parlament-juhasz-peter-pal/",
       "date": "2025-09-23",
       "publishedAt": "2025-09-23T12:00:00.000Z",
@@ -198,7 +246,7 @@
     {
       "id": "article-1769255332967",
       "title": "Juhász Péter podcastben tárja fel az Ózd környéki gyermekotthonok botrányát",
-      "summary": "2025. szeptember 19-én Juhász Péter ex-gyermekvédelmi vezető podcastben tárta fel az Ózd környéki gyermekotthonok botrányát. A gyerekek szerint egy \"Zsolti bácsi\" nevű, fekete autóval járó, magas rangú politikus rendszeresen zaklatta őket. Kuslits Gábor szakember megerősítette a titoktartást, és kiderült, hogy az ügy évek óta fennáll, de senki sem tett semmit.",
+      "summary": "2025. szeptember 19-én Juhász Péter ellenzéki aktivista és podcaster (nem a szőlő utcai ügy vádlottja, Juhász Péter Pál) podcastban tárta fel az Ózd környéki gyermekotthonok botrányát — önálló ügy a budapesti Szőlő utcai javítóintézeti eljárástól. A gyerekek szerint egy „Zsolti bácsi” nevű, fekete autóval járó, magas rangú politikus rendszeresen zaklatta őket. Kuslits Gábor szakember megerősítette a titoktartást, és kiderült, hogy az ügy évek óta fennáll, de senki sem tett semmit.",
       "sourceUrl": "https://telex.hu/belfold/2025/10/17/ozd-kornyeki-gyermekotthonok-nyomozas-ugyeszseg",
       "date": "2025-09-19",
       "publishedAt": "2025-09-19T12:00:00.000Z",

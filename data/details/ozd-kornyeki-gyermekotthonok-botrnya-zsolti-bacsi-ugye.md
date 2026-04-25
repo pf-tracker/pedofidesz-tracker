@@ -1,4 +1,4 @@
-Az Ózd környéki gyermekotthonok botránya 2025 szeptemberében robbant ki Juhász Péter ex-gyermekvédelmi vezető podcastjéből, szexuális visszaéléseket (pedofília) érintve kiskorú fiúkon. A független sajtó részletesen dokumentálta a visszaéléseket, beleértve a rendszeres zaklatást és a politikai kapcsolatokat. Az ügyészség nyomozást indított, és két gyanúsítottat letartóztatott.
+Az Ózd környéki gyermekotthonok botránya 2025 szeptemberében került széles nyilvánosságra Juhász Péter ellenzéki aktivista és podcaster podcastján keresztül — ő **nem** a szőlő utcai ügy vádlottja, Juhász Péter Pál. A szál szexuális visszaéléseket (pedofília) érint kiskorú fiúkon. A független sajtó részletesen dokumentálta a visszaéléseket, beleértve a rendszeres zaklatást és a politikai kapcsolatokat. Az ügyészség nyomozást indított, és két gyanúsítottat letartóztatott.
 
 A botrány története körülbelül 2015-ben kezdődött, amikor egy névtelen hitoktató (Látó János?) hallotta fiúktól, hogy egy "nagyon magas rangú politikus" ("Zsolti bácsi", TV hang alapján Semjén Zsolt gyanúja) fekete autóval érkezik esti órákban a gyermekotthonokhoz. A gyerekek szerint 10-12 éves korukban zaklatták őket. A rendőr titoktartást írt alá, és az ügy évekig eltussolt maradt.
 
@@ -12,7 +12,7 @@ Október 16-17-én Nagy Gábor Bálint legfőbb ügyész megerősítette a nyomo
 
 2025 december-2026 január között a nyomozás folytatódott, poligráfokkal rendőrökön is. Nincs friss vádemelés, de a nyomozás kiterjedt a Magvető utcai otthonra is (később kizárták).
 
-A botrány része a nagyobb gyermekvédelmi válságnak (Zirzen Janka, Szőlő utca), de Ózd-specifikusan pedofil gyanúra fókuszál magas rangú érintettel. Az ügyészség vizsgálja a titkosításokat, és a kormány szerint politikai támadás Juhász ellen.
+Az **ózdi környéki gyermekotthon**-ügy **nem** a budapesti **Szőlő utcai javítóintézet** büntetőügye: más a helyszín és az intézménytípus (Borsod megyei gyermekotthon-hálózat vs. fővárosi javítóintézet), és **külön nyomozás / külön vádképlet** tartozik hozzájuk. A sajtó és a közéleti vita gyakran egy montázsban hozza őket (Zirzen Janka, Szőlő utca), de **a tényállásokat nem szabad összekeverni**. **Ózd környékére** jellemzően a gyermekotthonos vallomások és a „Zsolti bácsi”-politikus gyanú tartozik; a Szőlő utca **Budapesten**, Juhász Péter Pál ügyében zajlik. Az ügyészség vizsgálja a titkosításokat; a kormányközeli sajtó a botrányt nyilvánosságra hozó **Juhász Péter** (podcaster, nem Juhász Péter Pál) elleni politikai támadásként állította be.
 
 Ez a botrány egyértelműen mutatja, hogy a Fidesz rendszere mennyire védi az elkövetőket, és mennyire elhallgatja az áldozatok hangját. A kormány válasza a tagadás és az álhír vádak voltak, miközben az ügyészség nyomozást indított. Ez a rendszer működése – ahol a hatalom védi a saját embereit, és az áldozatok mindig csak statiszták maradnak.
 
